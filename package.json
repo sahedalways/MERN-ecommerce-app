@@ -7,22 +7,7 @@
     "npm": "8.8.0"
   },
   "main": "index.js",
-  "dependencies": {
-    "bowser": "^1.9.4",
-    "css-in-js-utils": "^2.0.1",
-    "exenv": "^1.2.2",
-    "hoist-non-react-statics": "^3.3.2",
-    "hyphenate-style-name": "^1.0.4",
-    "inline-style-prefixer": "^4.0.2",
-    "isobject": "^3.0.1",
-    "js-tokens": "^4.0.0",
-    "loose-envify": "^1.4.0",
-    "object-assign": "^4.1.1",
-    "prop-types": "^15.8.1",
-    "radium": "^0.26.2",
-    "react": "^17.0.2",
-    "react-is": "^16.13.1"
-  },
+  
   "scripts": {
     "start": "node backend/server.js",
     "heroku-postbuild": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
