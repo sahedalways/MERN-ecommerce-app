@@ -2,8 +2,10 @@
   "name": "mern-project---ecommerce-website",
   "version": "1.0.0",
   "description": "",
-  "npm": "8.8.0",
-  "node": "18.1.0",
+  "engines": {
+    "npm": "8.8.0",
+    "node": "18.1.0"
+  },
   "main": "index.js",
   "dependencies": {
     "bowser": "^1.9.4",
