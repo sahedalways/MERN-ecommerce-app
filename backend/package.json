@@ -2,6 +2,10 @@
   "name": "backend",
   "type": "module",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.1.0",
+    "npm": "8.8.0"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
