@@ -30,7 +30,7 @@ app.use("/api/users", userRouter);
 app.use("/api/orders", orderRouter);
 
 
-if (process.env.NODE_ENV == "production") {
+if (process.env.NODE_ENV === "production") {
   app.use(express.static("frontend/build"));
   const path = require("path");
   app.get("*", (req, res) => {
@@ -43,5 +43,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(port, () => {
-  console.log(`Your server is running at http://localhost:${port}`);
+  console.log(`Your server is running at ${port}`);
 });
